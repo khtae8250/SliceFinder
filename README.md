@@ -1,5 +1,4 @@
-# SliceFinder
-Automated Data Slicing for Model Validation
+# SliceFinder: Automated Data Slicing for Model Validation
 
 We study the problem of automatic model analysis by finding interpretable, problematic, and large slices where the model underperforms. For example, an ML user may want to know that a trained model has a high loss for the demographic gender = Female & age in [30, 40] compared to other demographics.
 
