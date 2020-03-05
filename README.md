@@ -6,8 +6,6 @@ The motivation of this paper is to complement existing approaches like TensorFlo
 
 A slice is defined as a conjunction of feature-value pairs, which makes it interpretable. A slice is problematic if its loss is significantly higher than other data. Our solution is to treat each slice as a hypothesis and perform two tests: determine if the difference in loss is statistically significant and if the effect size of the difference is large enough. SliceFinder searches for slices efficiently by either traversing a decision tree or a lattice structure of slices. Since SliceFinder can only see a subset of slices, it uses alpha-investing to perform false discovery control. SliceFinder also favors larger slices when it can. The SliceFinder GUI allows users to quickly browse through problematic slices.
 
-<div>
 ![customers1](https://user-images.githubusercontent.com/29707304/75939970-1f06c500-5ecf-11ea-97c5-b5a618def0d2.png)
 ![customers2](https://user-images.githubusercontent.com/29707304/75939980-275f0000-5ecf-11ea-8a9e-262002ab0f27.png)
-<\div>
   
