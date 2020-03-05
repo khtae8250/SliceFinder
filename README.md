@@ -9,3 +9,4 @@ A slice is defined as a conjunction of feature-value pairs, which makes it inter
 ![customers1](https://user-images.githubusercontent.com/29707304/75939970-1f06c500-5ecf-11ea-97c5-b5a618def0d2.png)
 ![customers2](https://user-images.githubusercontent.com/29707304/75939980-275f0000-5ecf-11ea-8a9e-262002ab0f27.png)
   
+A set of slices for customers in different regions. The na\"ive approach of blindly collecting any data is not optimal. In the left figure, there may be enough American customer data, so collecting more data in this region may worsen the bias. Instead, as in the right figure, we would like to collect possibly-different amounts of data for slices to optimize both the model accuracy and fairness on all slices
